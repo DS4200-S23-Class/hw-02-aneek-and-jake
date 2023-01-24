@@ -1,0 +1,23 @@
+
+* {
+    font-family: Arial;
+}
+
+.info {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    width: 100%;
+    border: 1px solid burlywood;
+    
+    
+}
+
+#top_row {
+    background-color: rgb(6, 133, 245);
+}
+
+
