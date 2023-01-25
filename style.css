@@ -1,89 +1,60 @@
 * {
-    font-family: Arial;
+     font-family: Arial;
 }
-
-
-h1 {
-    text-align: center;
+ h1 {
+     text-align: center;
 }
-
-
-h3 {
-    text-align: center;
+ h3 {
+     text-align: center;
 }
-
-table {
-    width: 100%;
-    border: none;
-    text-align: center;
+ table {
+     width: 100%;
+     border: none;
+     text-align: center;
 }
-
-#top_row {
-    background-color: rgb(6, 133, 245);
+ #top_row {
+     background-color: rgb(6, 133, 245);
 }
-
-h2 {
-    text-align: left;
+ h2 {
+     text-align: left;
 }
-
-ul {
-    text-align: left;
+ ul {
+     text-align: left;
 }
-
-
-.flex-container {
-  /* We first create a flex layout context */
-  display: flex;
-  
-  /* Then we define the flow direction 
-     and if we allow the items to wrap 
-   * Remember this is the same as:
-   * flex-direction: row;
-   * flex-wrap: wrap;
-   */
-  flex-flow: row wrap;
-  
-  /* Then we define how is distributed the remaining space */
-  justify-content: space-around;
+ .flex-container {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
 }
-
-.flex-item {
-  flex: 33.33%;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;        /* for single line flex container */
-  align-content: center;
+ .flex-item {
+     flex: 33.33%;
+     padding: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
 }
-
-
-img {
-    width: 90%;
-    height: 90%;
+ img {
+     width: 90%;
+     height: 90%;
 }
-
-p {
-    text-align: left;
-    color: darkblue;
+ p {
+     text-align: left;
+     color: darkblue;
 }
-
-circle:hover {
-    stroke: black; 
-    stroke-width: 4;
+ circle:hover {
+     stroke: black;
+     stroke-width: 4;
 }
-
-rect:hover {
-    fill: goldenrod;
+ rect:hover {
+     fill: goldenrod;
 }
-
-#decoration { 
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-
+ #decoration {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
 }
-
-#circle {
-    opacity: 50%;
+ #circle {
+     opacity: 50%;
 }
-
+ 
