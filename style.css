@@ -21,6 +21,8 @@
  ul {
      text-align: left;
 }
+
+/* Creating the style for flex boxes */
  .flex-container {
      display: flex;
      flex-flow: row wrap;
@@ -42,6 +44,8 @@
      text-align: left;
      color: darkblue;
 }
+
+/* Creating style for shapes  */
  circle:hover {
      stroke: black;
      stroke-width: 4;
